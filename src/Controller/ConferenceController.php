@@ -20,7 +20,7 @@ class ConferenceController extends AbstractController
 {
     public function __construct(
         private EntityManagerInterface $entityManager,
-        private MessageBusInterface $bus,
+        private MessageBusInterface    $bus,
     )
     {
     }
